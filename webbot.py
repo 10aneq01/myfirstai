@@ -11,5 +11,6 @@ if st.button("send"):
         model == "gemini-2.5-flash",
         contents == question
         )
-st.write(response.text)
+    st.write(response.text)
     
+
