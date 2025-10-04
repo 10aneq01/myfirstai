@@ -6,11 +6,12 @@ st.title("my own chatbot")
 question = st.text_input("ask antything")
 
 if st.button("send"):
-    response = chiti.models.generate_content
+    response = chitti.models.generate_content
     (
         model == "gemini-2.5-flash",
         contents == question
         )
     st.write(response.text)
     
+
 
